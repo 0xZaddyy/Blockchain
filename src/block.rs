@@ -26,3 +26,8 @@ pub fn new_block(pre_block_hash: String, transactions: &[Transactions], height: 
     return block
 
 }
+
+impl Block{
+    // Functions related to the Block type can be implemented here
+    
+    }
