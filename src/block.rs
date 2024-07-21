@@ -62,4 +62,12 @@ impl Block{
     
     }
 
+    pub fn get_transactions(&self) -> &[Transaction] {
+        self.transactions.as_slice()
+        }
+
+        pub fn get_pre_block_hash(&self) -> String {
+            self.pre_block_hash.clone()
+            }
+
     
